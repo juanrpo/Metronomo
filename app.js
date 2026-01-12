@@ -14,11 +14,11 @@ inputBPM.value = 60;
 
 const playBtn = document.createElement("button");
 playBtn.classList.add("button")
-playBtn.textContent = "Play";
+playBtn.textContent = "►";
 
 const stopBtn = document.createElement("button");
 stopBtn.classList.add("button")
-stopBtn.textContent = "Stop";
+stopBtn.textContent = "◼︎";
 
 metronomo.append(inputBPM, playBtn, stopBtn);
 document.body.appendChild(metronomo);
