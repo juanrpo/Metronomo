@@ -11,7 +11,6 @@ inputBPM.classList.add("input")
 inputBPM.placeholder = "BPM";
 inputBPM.value = 60;
 
-
 const playBtn = document.createElement("button");
 playBtn.classList.add("button")
 playBtn.textContent = "►";
